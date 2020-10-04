@@ -7,7 +7,6 @@ Feature: Create Booking
     * header Content-Type = 'application/json'
     * header Accept = 'application/json'
 
-  @HappyPath
   Scenario: Verificar petición correcta para crear una reserva reciba 200
     Given path '/booking'
     And request
